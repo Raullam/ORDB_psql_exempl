@@ -1,15 +1,12 @@
 import dao.InstitutDAO;
-import dao.InstitutDAOimpl; // Import your implementation
+import dao.InstitutDAOimpl; 
 import models.*;
 
 import java.math.BigDecimal;
 import java.util.List;
 
 public class Main {
-    // Define the database URL as a constant
-    private static final String URL = "your_database_url_here";
-
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         InstitutDAO dao = new InstitutDAOimpl();
 
 
