@@ -17,7 +17,7 @@ public class Main {
         if (cicle != null) {
             System.out.println(cicle);
         } else {
-            System.out.println("Cicle not found.");
+            System.out.println("Cicle no trobat.");
         }
 
         // exercici 2
